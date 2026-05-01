@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<main style="padding:40px; max-width:900px; margin:auto;">
+
+    <h2>All Books</h2>
+
+    <a href="{{ url_for('create') }}">Add New Book</a>
+    <br><br>
+
+    <div style="display:flex; flex-wrap:wrap; gap:20px;">
+        {% for book in books %}
+            <div style="width:200px; border:1px solid #ccc; padding:10px;">
+
+                <img 
+                    src="{{ url_for('static', filename='images/books/' ~ book['image']) }}" 
+                    width="100"
+                    style="display:block; margin-bottom:8px;"
+                >
+
+                <strong>{{ book['title'] }}</strong><br>
+                Author: {{ book['author'] }}<br>
+                ISBN: {{ book['isbn'] }}<br>
+                Category: {{ book['categoryName'] }}<br>
+                Price: ${{ book['price'] }}<br>
+
+                <br>
+
+                <a href="{{ url_for('edit', book_id=book['bookId']) }}">Edit</a> |
+                <a href="{{ url_for('delete', book_id=book['bookId']) }}">Delete</a>
+
+            </div>
+        {% endfor %}
+    </div>
+
+</main>
+{% endblock %}

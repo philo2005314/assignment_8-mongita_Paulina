@@ -1,0 +1,134 @@
+[
+  {
+    "bookId": 1,
+    "categoryId": 1,
+    "categoryName": "Parenting",
+    "title": "No Bad Kids: Toddler Discipline Without Shame",
+    "author": "Janet Julian",
+    "isbn": "9781499351118",
+    "price": 11.95,
+    "image": "toddler.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 2,
+    "categoryId": 1,
+    "categoryName": "Parenting",
+    "title": "1-2-3 Magic for Kids: Helping Your Kids Understand the New Rules",
+    "author": "Thomas Phelan",
+    "isbn": "9781492647867",
+    "price": 11.99,
+    "image": "magic.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 3,
+    "categoryId": 1,
+    "categoryName": "Parenting",
+    "title": "Unconditional Parenting: Moving from Rewards and Punishments to Love and Reason",
+    "author": "Alfie Kohn",
+    "isbn": "9780743487481",
+    "price": 17.99,
+    "image": "love.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 4,
+    "categoryId": 2,
+    "categoryName": "Travel",
+    "title": "The Great Railway Bazaar",
+    "author": "Paul Theroux",
+    "isbn": "9780618658947",
+    "price": 21.99,
+    "image": "bazaar.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 5,
+    "categoryId": 2,
+    "categoryName": "Travel",
+    "title": "The Road to Oxiana",
+    "author": "Robert Byron",
+    "isbn": "9780195325607",
+    "price": 19.99,
+    "image": "oxiana.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 6,
+    "categoryId": 2,
+    "categoryName": "Travel",
+    "title": "The Shadow of the Sun",
+    "author": "Ryszard Kapuscinski",
+    "isbn": "9780679779070",
+    "price": 17.0,
+    "image": "sun.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 7,
+    "categoryId": 3,
+    "categoryName": "Cooking",
+    "title": "Professional Cooking",
+    "author": "Wayne Gisslen",
+    "isbn": "9781118636725",
+    "price": 161.25,
+    "image": "chef.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 8,
+    "categoryId": 3,
+    "categoryName": "Cooking",
+    "title": "Jacques P\u00e9pin New Complete Techniques",
+    "author": "Jacques Pepin",
+    "isbn": "9781579129118",
+    "price": 45.0,
+    "image": "pepin.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 9,
+    "categoryId": 3,
+    "categoryName": "Cooking",
+    "title": "Dinner Tonight: 200 Quick Recipes for Inspired Weeknight Cooking",
+    "author": "America's Test Kitchen",
+    "isbn": "9781966027003",
+    "price": 35.0,
+    "image": "dinner.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 10,
+    "categoryId": 4,
+    "categoryName": "Self-help",
+    "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+    "author": "Matthew Walker",
+    "isbn": "9781501144318",
+    "price": 29.99,
+    "image": "sleep.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 11,
+    "categoryId": 4,
+    "categoryName": "Self-help",
+    "title": "How to Keep House While Drowning: A Gentle Approach to Cleaning and Organizing",
+    "author": "KC Davis",
+    "isbn": "9781668002841",
+    "price": 24.99,
+    "image": "house.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 12,
+    "categoryId": 4,
+    "categoryName": "Self-help",
+    "title": "Hope and Help for Your Nerves: End Anxiety Now",
+    "author": "Claire Weekes",
+    "isbn": "9780593201909",
+    "price": 20.0,
+    "image": "nerves.jpg",
+    "readNow": 0
+  }
+]
